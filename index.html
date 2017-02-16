@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+<!--We need to import both jquery and bootstrap and jquery must be imported before the bootstrap scrip for the collapsable to work! -->
+<nav id="myNavbar" class="navbar navbar-inverse bg-inverse navbar-toggleable-md navbar-light bg-faded">
+    <!--collapasable is for the mobile devices-->
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#home">My Portfolio</a>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div id="home" class="container-fluid red-color">
+    <p>HELLO</p>
+</div>
+
+<div id="education" class="container-fluid green-color">
+    <p>Education</p>
+</div>
+
+<div id="portfolio" class="container-fluid blue-color">
+    <p>Portfolio</p>
+</div>
+
+<div id="contact" class="container-fluid gray-color">
+    <p>Contact</p>
+</div>
+
+</body>
+</html>
