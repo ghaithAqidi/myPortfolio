@@ -55,6 +55,13 @@ div#contact>.section {
     border-radius: 25px;
 }
 
+.portfolioWrapper{
+    background-color: rgb(232,148,43);
+    max-width: 60%;
+    max-height: 60%;
+    border-radius: 25px;
+}
+
 .contactLogo{
     max-width:150px;
     max-height:200px;
@@ -69,10 +76,38 @@ div#contact>.section {
     margin: 5%;
 }
 
+.groshLogo{
+    border-radius: 25px;
+    max-width:150px;
+    max-height:200px;
+    margin: 5% 5% 5% 5%;
+
+}
+.ahLogo{
+
+    border-radius: 25px;
+    width:150px;
+    height:150px;
+    margin: 5%;
+}
+.moreProjects{
+    padding: 5%;
+}
+
+.swetaliaLogo{
+
+    border-radius: 25px;
+    max-width:150px;
+    max-height:200px;
+    margin: 5% 20% 5% 5%;
+}
+
 .homeText{
     background-color: rgb(255,255,255);
     border-radius: 25px;
 }
+
+
 
 .homeText>p{
     margin: 10px;
