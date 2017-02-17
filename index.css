@@ -14,3 +14,14 @@
     background-color: gray;
     height:1000px;
 }
+
+#myNavbar {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.section{
+    padding-top: 56px;
+}
