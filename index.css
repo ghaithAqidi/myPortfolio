@@ -13,11 +13,11 @@
 }
 
 div#home>.section {
-    background: url(img/p1.jpeg) no-repeat center center fixed;
+    background: url(img/p2.jpg) no-repeat center center fixed;
     height:1000px;
 }
 div#education>.section {
-    background: url(img/p2.jpg) no-repeat center center fixed;
+    background: url(img/p1.jpg) no-repeat center center fixed;
     height:1000px;
 }
 div#portfolio>.section {
@@ -42,11 +42,43 @@ div#contact>.section {
 
 }
 
+.homeWrapper{
+    max-width: 60%;
+    max-height: 60%;
+    border-radius: 25px;
+
+}
+
+.educationWrapper {
+    max-width: 60%;
+    max-height: 60%;
+    border-radius: 25px;
+}
+
 .contactLogo{
     max-width:150px;
     max-height:200px;
 }
 
+.myPicture {
+    border-radius: 25px;
+    max-width:150px;
+    max-height:200px;
+    left: 20%;
+    position: relative;
+    margin: 5%;
+}
+
+.homeText{
+    background-color: rgb(255,255,255);
+    border-radius: 25px;
+}
+
+.homeText>p{
+    margin: 10px;
+    font-family: Optima;
+    font-size: 26px;
+}
 .properties {
     text-align: center;
     max-width: 720px; /* (200+(20x2))x3 */
