@@ -28,3 +28,51 @@ div#contact>.section {
     background: url(img/p4.jpg) no-repeat center center fixed;
     height:1000px;
 }
+
+.centerDiv {
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.contactWrapper{
+    background-color: rgb(41,43,44);
+    max-width: 60%;
+    max-height: 60%;
+    border-radius: 25px;
+
+}
+
+.contactLogo{
+    max-width:150px;
+    max-height:200px;
+}
+
+.properties {
+    text-align: center;
+    max-width: 720px; /* (200+(20x2))x3 */
+    min-height: 250px;
+    font-size: 0; /* fix for white space bug */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.property {
+    display: inline-block;
+    margin: 20px;
+    font-size: 16px;
+    border-radius: 25px;
+
+}
+
+/*Those three classes are for testing purposes only.*/
+.redColor {
+    background-color: red;
+}
+
+.blueColor {
+    background-color: blue;
+}
+.pic {
+    width: 150px;
+    height:200px;
+}

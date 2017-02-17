@@ -20,7 +20,7 @@ $(document).ready(function(){
         clickedLi.addClass("active");
     });
 
-    //set the active class on home when clicking on "My Portfilio":
+    //set the active class on home when clicking on "My Portfolio":
     $("#myNavbar a.navbar-brand").on('click', function(){
        var homeLi = $("li.nav-item:first");
         var otherLis = $("li.nav-item");
