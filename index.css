@@ -1,19 +1,4 @@
-.red-color {
-    background-color: red;
-    height:1000px;
-}
-.blue-color {
-    background-color: blue;
-    height:1000px;
-}
-.green-color {
-    background-color: green;
-    height:1000px;
-}
-.gray-color {
-    background-color: gray;
-    height:1000px;
-}
+
 
 #myNavbar {
     position: fixed;
@@ -24,4 +9,22 @@
 
 .section{
     padding-top: 56px;
+    margin: 0 -15px 0 -15px;
+}
+
+div#home>.section {
+    background: url(img/p1.jpeg) no-repeat center center fixed;
+    height:1000px;
+}
+div#education>.section {
+    background: url(img/p2.jpg) no-repeat center center fixed;
+    height:1000px;
+}
+div#portfolio>.section {
+    background: url(img/p3.jpg) no-repeat center center fixed;
+    height:1000px;
+}
+div#contact>.section {
+    background: url(img/p4.jpg) no-repeat center center fixed;
+    height:1000px;
 }
