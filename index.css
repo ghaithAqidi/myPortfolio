@@ -57,11 +57,14 @@ div#contact>.section {
 
 .portfolioWrapper{
     background-color: rgb(232,148,43);
-    max-width: 60%;
+    max-width: 70%;
     max-height: 60%;
     border-radius: 25px;
 }
-
+.centerDivPortfolio{
+    margin-top: 10%;
+    margin-left: 15%;
+}
 .contactLogo{
     max-width:150px;
     max-height:200px;
@@ -93,13 +96,18 @@ div#contact>.section {
 .moreProjects{
     padding: 5%;
 }
+.moreProjectsText {
+    margin: 10px;
+    font-family: Optima;
+    font-size: 26px;
+}
 
 .swetaliaLogo{
 
     border-radius: 25px;
-    max-width:150px;
+    max-width:450px;
     max-height:200px;
-    margin: 5% 20% 5% 5%;
+    margin: 2% 5% 5% 5%;
 }
 
 .homeText{
