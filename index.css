@@ -115,12 +115,29 @@ div#contact>.section {
     border-radius: 25px;
 }
 
+.secondRow{
+    margin-top: 20px;
+}
+
+.codeLogo{
+    max-height: 200px;
+}
 
 
 .homeText>p{
     margin: 10px;
     font-family: Optima;
     font-size: 26px;
+}
+.expertiseText{
+    background-color: rgb(255,255,255);
+    border-radius: 25px;
+}
+
+.expertiseText>p{
+    margin: 10px;
+    font-family: Optima;
+    font-size: 22px;
 }
 .properties {
     text-align: center;
